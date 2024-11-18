@@ -1,0 +1,57 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+
+    background-image: url(image\ copy.png);
+
+
+    color: rgb(0, 0, 0);
+}
+
+.imagecont img {
+    width: 200px;
+    border: 5px solid rgb(19, 61, 116);
+    border-radius: 50%;
+
+}
+
+.imagecont img:hover {
+
+    transform: rotate(360deg);
+    transition-duration: 5s;
+}
+
+header h1:hover {
+    font-weight: 700;
+    font-size: 40px;
+    transition-duration: 5s;
+
+}
+
+.bodycont {
+    background-color: rgba(179, 207, 214, 0.973);
+    width: 50%;
+}
+
+footer{
+    background-color: rgba(179, 207, 214, 0.973);;
+    
+    margin: 3em;
+    width: 50%;
+}
+
+.bodycont li{
+    margin-top: 1em;
+
+    width: 50%;
+}
+
+.bodycont:hover {
+    font-size: larger;
+    transition-duration: 500ms;
+
+}
